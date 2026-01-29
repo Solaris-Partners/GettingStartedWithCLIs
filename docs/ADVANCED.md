@@ -266,11 +266,12 @@ Then restart your terminal.
 
 ## Tips for Power Users
 
-1. **Use continue mode** — `ccc` or `ccdc` picks up where you left off
-2. **Navigate with zoxide** — Stop typing long paths
-3. **Search with ripgrep** — Find anything in seconds
-4. **Learn keyboard shortcuts** — Small time savings add up
-5. **Customize your prompt** — Make your terminal yours
+1. **Use Plan Mode for complex tasks** — See the [Plan Mode guide](PLAN-MODE.md) for details
+2. **Use continue mode** — `ccc` or `ccdc` picks up where you left off
+3. **Navigate with zoxide** — Stop typing long paths
+4. **Search with ripgrep** — Find anything in seconds
+5. **Learn keyboard shortcuts** — Small time savings add up
+6. **Customize your prompt** — Make your terminal yours
 
 ---
 

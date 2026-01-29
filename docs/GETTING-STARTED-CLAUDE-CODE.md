@@ -205,6 +205,8 @@ Claude Code is like having Claude sitting next to you at your computer, able to 
 
 ## Next Steps
 
+**Want Claude to plan first?** Learn about [Plan Mode](PLAN-MODE.md)—a way to make Claude think through problems before making changes. Highly recommended.
+
 **Want to use GitHub?** Check out [Getting Started with GitHub](GETTING-STARTED-GITHUB.md) for a beginner-friendly guide.
 
 **Curious about alternatives?** Read [Claude Code vs Codex](CLAUDE-CODE-VS-CODEX.md) to understand your options.
