@@ -222,4 +222,4 @@ Claude Code is like having Claude sitting next to you at your computer, able to 
 
 ---
 
-[← Back to Overview](README.md)
+[← Back to Overview](../README.md)

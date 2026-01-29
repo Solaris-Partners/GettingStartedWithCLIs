@@ -211,4 +211,4 @@ That's all the CLI knowledge you need to get started with Claude Code.
 
 ---
 
-[← Back to Overview](README.md)
+[← Back to Overview](../README.md)

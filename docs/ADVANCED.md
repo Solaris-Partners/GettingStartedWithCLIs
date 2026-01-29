@@ -281,4 +281,4 @@ Then restart your terminal.
 
 ---
 
-[← Back to Getting Started](GETTING-STARTED-CLAUDE-CODE.md)
+[← Back to Overview](../README.md)
