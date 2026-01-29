@@ -1,314 +1,212 @@
 # Project Ideas: What to Build with Claude Code
 
-Practical projects for business professionals, organized from simple to advanced. Each project uses Claude Code to solve real workplace problems.
-
-These examples are tailored for a mid-sized company (~$20M revenue). Adapt them to your specific industry and needs.
-
----
-
-## Start Simple, Build Confidence
-
-Don't jump to the advanced projects. Start with something simple that delivers immediate value. As you build confidence, tackle bigger challenges.
+Practical projects for business professionals. Each one includes what you need and a starting prompt.
 
 ---
 
 ## Simple Projects
 
-These can be done in a single session with Claude Code. Perfect for learning the basics.
-
 ### 1. Meeting Notes Processor
 
-**What it does:** Take raw meeting transcripts or notes and automatically generate structured summaries.
+**You need:** A meeting transcript or notes (text file)
 
-**How to do it:**
-1. Save your meeting notes as a text file
-2. Ask Claude: "Read this transcript and create a summary with action items, decisions made, and key discussion points"
-3. Claude writes a clean, formatted summary
-
-**Why it matters:** You probably already summarize meetings manually. Let Claude do it in seconds.
+**Starting prompt:**
+```
+Read this transcript and create a summary with action items, decisions made, and key discussion points.
+```
 
 ---
 
 ### 2. Email Template Generator
 
-**What it does:** Create professional email templates for common situations.
+**You need:** A description of the situation
 
-**How to do it:**
-- "Create an email template for following up with clients who haven't responded in a week"
-- "Write a template for announcing policy changes to the team"
-- "Draft a professional response for vendor pricing negotiations"
-
-**Why it matters:** Consistent, professional communication saves time and improves outcomes.
+**Starting prompt:**
+```
+Create a professional email template for following up with clients who haven't responded in a week.
+```
 
 ---
 
 ### 3. Document Formatter
 
-**What it does:** Take messy documents and reformat them to your company's standards.
+**You need:** A messy document (Word, PDF text, or raw text)
 
-**How to do it:**
-1. Give Claude a document (Word, PDF text, or raw text)
-2. Ask: "Reformat this to match our standard template with proper headings, bullet points, and professional formatting"
-3. Claude produces a clean, consistent document
-
-**Why it matters:** Formatting is tedious. Let AI handle it.
+**Starting prompt:**
+```
+Reformat this document with proper headings, bullet points, and professional formatting.
+```
 
 ---
 
 ### 4. Expense Report Analyzer
 
-**What it does:** Review expense reports and flag anomalies.
+**You need:** Expense data exported to CSV
 
-**How to do it:**
-1. Export expense data to CSV
-2. Ask Claude: "Analyze these expenses. Flag anything unusual—duplicates, amounts outside normal ranges, or missing information"
-3. Claude produces a summary with items to review
-
-**Why it matters:** Catching expense issues early saves money and audit headaches.
+**Starting prompt:**
+```
+Analyze these expenses. Flag anything unusual—duplicates, amounts outside normal ranges, or missing information.
+```
 
 ---
 
 ### 5. Policy Document Q&A
 
-**What it does:** Make your employee handbook and policies searchable and answerable.
+**You need:** Policy documents in a folder
 
-**How to do it:**
-1. Gather your policy documents in a folder
-2. Ask Claude: "Based on our policies, what's the procedure for requesting time off?"
-3. Claude reads the relevant documents and gives you the answer
-
-**Why it matters:** Nobody reads the full employee handbook. Now they don't have to.
+**Starting prompt:**
+```
+Based on the documents in this folder, what's the procedure for requesting time off?
+```
 
 ---
 
 ## Intermediate Projects
 
-These take more time but deliver significant value. Good for when you're comfortable with CLI basics.
-
 ### 6. Weekly Status Report Generator
 
-**What it does:** Automatically compile weekly status reports from various inputs.
+**You need:** A text file with your weekly notes
 
-**How to do it:**
-1. Throughout the week, jot notes in a simple text file
-2. At week's end, ask Claude: "Turn these notes into a professional weekly status report with accomplishments, challenges, and next week's priorities"
-3. Claude formats everything into a polished report
-
-**Features to add:**
-- Pull data from project management tools
-- Include metrics from spreadsheets
-- Generate different versions for different audiences (team, leadership, clients)
+**Starting prompt:**
+```
+Turn these notes into a professional weekly status report with accomplishments, challenges, and next week's priorities.
+```
 
 ---
 
 ### 7. Invoice Tracker
 
-**What it does:** Track outstanding invoices and flag overdue payments.
+**You need:** Invoice data exported from your accounting system (CSV)
 
-**How to do it:**
-1. Export invoice data from your accounting system (CSV)
-2. Ask Claude to create a tracking dashboard showing:
-   - Invoices by age (current, 30/60/90+ days)
-   - Total outstanding by customer
-   - Customers with payment issues
-3. Generate reminder email drafts for overdue accounts
-
-**Why it matters:** Cash flow visibility is critical. Getting paid on time matters.
+**Starting prompt:**
+```
+Create a tracking report showing invoices by age (current, 30/60/90+ days), total outstanding by customer, and draft reminder emails for overdue accounts.
+```
 
 ---
 
 ### 8. Competitive Analysis Tool
 
-**What it does:** Gather and organize information about competitors.
+**You need:** Competitor websites and any public info you have
 
-**How to do it:**
-1. Give Claude competitor websites and any public info you have
-2. Ask: "Create a competitive analysis comparing pricing, features, positioning, and strengths/weaknesses"
-3. Claude compiles a structured comparison document
-
-**Why it matters:** Staying informed about competitors helps with strategy and sales.
+**Starting prompt:**
+```
+Create a competitive analysis comparing pricing, features, positioning, and strengths/weaknesses for these competitors.
+```
 
 ---
 
 ### 9. Interview Question Generator
 
-**What it does:** Create role-specific interview questions based on job descriptions.
+**You need:** A job description
 
-**How to do it:**
-1. Provide the job description
-2. Ask Claude: "Generate 15 interview questions for this role—5 behavioral, 5 technical/role-specific, and 5 cultural fit questions"
-3. Claude creates tailored questions with suggested follow-ups
-
-**Why it matters:** Better interviews lead to better hires.
+**Starting prompt:**
+```
+Generate 15 interview questions for this role—5 behavioral, 5 technical/role-specific, and 5 cultural fit questions.
+```
 
 ---
 
 ### 10. Contract Summary Tool
 
-**What it does:** Extract key terms from contracts and agreements.
+**You need:** A contract (text version)
 
-**How to do it:**
-1. Provide a contract (text version)
-2. Ask Claude: "Summarize this contract highlighting key dates, obligations, payment terms, termination clauses, and any unusual provisions"
-3. Claude produces a digestible summary
+**Starting prompt:**
+```
+Summarize this contract highlighting key dates, obligations, payment terms, termination clauses, and any unusual provisions.
+```
 
-**Why it matters:** Nobody wants to read 40-page contracts. Now you don't have to read every word.
-
-**Important:** This is for quick understanding, not legal advice. Always have important contracts reviewed by legal counsel.
+**Note:** This is for quick understanding, not legal advice.
 
 ---
 
 ### 11. Training Material Creator
 
-**What it does:** Turn your knowledge into structured training documents.
+**You need:** A description of a process or skill
 
-**How to do it:**
-1. Describe a process or skill you want to teach
-2. Ask Claude: "Create a training guide for new employees on [topic] with step-by-step instructions, common mistakes to avoid, and a quiz at the end"
-3. Claude produces ready-to-use training material
-
-**Why it matters:** Documented processes scale. Tribal knowledge doesn't.
+**Starting prompt:**
+```
+Create a training guide for new employees on [topic] with step-by-step instructions, common mistakes to avoid, and a quiz at the end.
+```
 
 ---
 
 ### 12. Customer Feedback Analyzer
 
-**What it does:** Process customer feedback and identify patterns.
+**You need:** Customer feedback from surveys, emails, or reviews
 
-**How to do it:**
-1. Gather feedback from surveys, emails, or reviews
-2. Ask Claude: "Analyze this customer feedback. Categorize by theme, identify the top 5 issues, and suggest improvements"
-3. Claude produces an actionable insights report
-
-**Why it matters:** Customer feedback is gold, but only if you actually process it.
+**Starting prompt:**
+```
+Analyze this customer feedback. Categorize by theme, identify the top 5 issues, and suggest improvements.
+```
 
 ---
 
 ## Advanced Projects
 
-These are bigger efforts that can transform how your organization operates. Tackle these once you're confident with Claude Code.
-
 ### 13. Automated Report Generator
 
-**What it does:** Pull data from multiple sources and generate formatted reports automatically.
+**You need:** Data exports (CSV) from your various systems
 
-**Example use cases:**
-- Monthly financial summary pulling from QuickBooks export
-- Sales pipeline report from CRM data
-- Project status report aggregating multiple project files
-
-**How to do it:**
-1. Identify your data sources (usually CSV exports to start)
-2. Define what you want in the final report
-3. Ask Claude to build a script that:
-   - Reads the source files
-   - Processes and aggregates the data
-   - Generates a formatted report (PDF, HTML, or Markdown)
-
-**Why it matters:** Reports that take hours manually can run in seconds.
+**Starting prompt:**
+```
+Build a script that reads these data files, aggregates the information, and generates a formatted monthly report as a PDF.
+```
 
 ---
 
 ### 14. Department Dashboard
 
-**What it does:** A real-time (or daily-updated) view of key department metrics.
+**You need:** Spreadsheets or exports with your key metrics
 
-**Metrics to track (examples):**
-- **Finance:** Cash position, AR aging, budget vs actual
-- **Sales:** Pipeline value, conversion rates, forecast
-- **Operations:** Project status, resource utilization
-- **HR:** Headcount, open positions, time-to-hire
-
-**How to do it:**
-1. Identify 5-7 key metrics for your department
-2. Determine data sources (spreadsheets, exports, etc.)
-3. Ask Claude to build a simple HTML dashboard that displays current values
-4. Update the data files regularly (or automate with scheduled exports)
-
-**Why it matters:** Visibility drives better decisions.
+**Starting prompt:**
+```
+Build a simple HTML dashboard that displays these metrics: [list your 5-7 key metrics]. Make it easy to update by reading from these data files.
+```
 
 ---
 
 ### 15. Vendor Management System
 
-**What it does:** Track vendor performance, contracts, and spending.
+**You need:** A list of your vendors with contact info, contracts, and spending data
 
-**Features:**
-- Vendor contact and contract information
-- Spending history by vendor
-- Contract renewal dates and alerts
-- Performance notes and ratings
-- Price comparison across vendors
-
-**How to do it:**
-1. Start with a structured spreadsheet or simple database
-2. Ask Claude to build tools for:
-   - Adding/updating vendor info
-   - Flagging upcoming renewals
-   - Generating spending reports
-   - Comparing vendor pricing
-
-**Why it matters:** Vendor relationships are often unmanaged. A simple system creates leverage and prevents surprises.
+**Starting prompt:**
+```
+Build a vendor tracking system that stores vendor info, flags upcoming contract renewals, and generates spending reports.
+```
 
 ---
 
 ### 16. Employee Onboarding Automation
 
-**What it does:** Streamline new employee setup with automated checklists and document generation.
+**You need:** Your current onboarding checklist and document templates
 
-**Features:**
-- Customized onboarding checklist based on role
-- Automated welcome email with first-day instructions
-- Document package preparation (offer letter, handbook, forms)
-- Training schedule generation
-- 30/60/90 day check-in reminders
-
-**How to do it:**
-1. Document your current onboarding process
-2. Ask Claude to create templates and automation scripts
-3. Build a simple workflow that generates all materials from basic input (name, role, start date)
-
-**Why it matters:** Consistent onboarding improves retention and time-to-productivity.
+**Starting prompt:**
+```
+Build an onboarding workflow that generates a customized checklist, welcome email, and document package from basic input (name, role, start date).
+```
 
 ---
 
 ### 17. Budget Planning Tool
 
-**What it does:** Interactive budget planning with scenario modeling.
+**You need:** Your current budget structure (spreadsheet)
 
-**Features:**
-- Input assumptions (revenue growth, cost changes)
-- Model different scenarios (conservative, expected, optimistic)
-- Compare scenarios side by side
-- Generate board-ready presentations
-
-**How to do it:**
-1. Start with your current budget structure
-2. Ask Claude to build a model with adjustable assumptions
-3. Add visualization (charts, graphs)
-4. Generate presentation-ready outputs
-
-**Why it matters:** Better financial planning = better business decisions.
+**Starting prompt:**
+```
+Build a budget planning tool with adjustable assumptions that can model conservative, expected, and optimistic scenarios side by side.
+```
 
 ---
 
 ### 18. Internal Knowledge Base
 
-**What it does:** A searchable repository of company knowledge, processes, and decisions.
+**You need:** Existing documentation scattered across folders
 
-**Features:**
-- Categorized documentation
-- Search functionality
-- Version history
-- Easy updates and additions
-
-**How to do it:**
-1. Gather existing documentation in a folder structure
-2. Ask Claude to help organize and standardize formatting
-3. Build a simple search tool that can find information across all documents
-4. Create a process for adding new knowledge
-
-**Why it matters:** Institutional knowledge often lives in people's heads or random files. Centralize it.
+**Starting prompt:**
+```
+Help me organize these documents into a structured knowledge base with consistent formatting and build a simple search tool to find information across all of them.
+```
 
 ---
 
@@ -321,27 +219,6 @@ These are bigger efforts that can transform how your organization operates. Tack
 | Need better visibility | #7 Invoice Tracker |
 | Managing a team | #6 Weekly Status Reports |
 | Want high impact | #13 Automated Report Generator |
-
----
-
-## Tips for Success
-
-1. **Start small** — Get one thing working before adding complexity
-2. **Use real data** — Toy examples are less satisfying; use actual work problems
-3. **Iterate** — Version 1 won't be perfect. Ship it, use it, improve it
-4. **Document as you go** — Future you will thank present you
-5. **Share what works** — If you build something useful, others might benefit
-
----
-
-## Getting Help
-
-Just ask Claude Code directly:
-- "How would I approach building [project name]?"
-- "What files would I need to create for [project]?"
-- "Can you help me start with a simple version of [project]?"
-
-Claude will guide you through the process step by step.
 
 ---
 

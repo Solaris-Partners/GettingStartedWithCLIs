@@ -137,7 +137,7 @@ Choose Codex if you:
 
 **Important note:** AI tools evolve rapidly. What's true today may change in months.
 
-Currently (as of early 2025):
+Currently (as of early 2026):
 - Codex has an edge in raw coding power
 - Claude Code has an edge in usability and community
 
